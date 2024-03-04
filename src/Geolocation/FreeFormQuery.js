@@ -16,7 +16,7 @@ const FreeFormQuery = ({ setQuery, query }) => {
   }
   return (
     <input
-      className="pl-[0.5rem] w-[95%] h-[100%] border border-x-transparent shadow-2xl border-blue-400 text-blue-500  placeholder:text-blue-400"
+      className="pl-[0.5rem] w-[95%] h-[100%] border border-x-transparent rounded-none shadow-2xl border-blue-400 text-blue-500  placeholder:text-blue-400"
       onChange={(e) => handleFreeFormQueryChange(e)}
       placeholder="Search Location..."
       value={query.q ? query.q : ""}

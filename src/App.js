@@ -23,15 +23,15 @@ function App() {
               <DashboardTime />
             </div>
           </div>
-          <div className="flex flex-col lg:flex-row h-[45rem] md:h-[39rem] w-[100%] gap-2 lg:gap-[1rem]">
-            <div className="flex border border-gray-400 bg-[#F0F5FF] shadow-2xl rounded-xl p-3 pb-10 flex-col lg:flex-col w-[100%] h-[70%] lg:w-[80%] lg:h-[100%] gap-[1.6rem] md:gap-[0.5rem] lg:gap-2">
+          <div className="flex flex-col lg:flex-row h-[55rem] md:h-[39rem] w-[100%] gap-2 lg:gap-[1rem]">
+            <div className="flex border border-blue-400 bg-[#F0F5FF] shadow-2xl rounded-xl p-3 pb-10 flex-col lg:flex-col w-[100%] h-[60%] lg:w-[80%] lg:h-[100%] gap-[1.5rem] sm:gap-[2rem] md:gap-[2rem] ">
               {geolocation ? (
                 <WeatherDisplay geolocation={geolocation} />
               ) : (
                 <DefaultWeatherDisplay />
               )}
             </div>
-            <div className="border-gray-400 bg-white shadow-2xl w-[100%] h-[100%] lg:w-[30%] lg:h-[100%] border rounded-xl pt-4 px-2 pb-4">
+            <div className="border-blue-400 bg-white shadow-2xl w-[100%] h-[40%] lg:w-[30%] lg:h-[100%] border rounded-xl pt-4 px-2 pb-4">
               <CityDisplay cityInfo={cityInfo} setCityInfo={setCityInfo} />
             </div>
           </div>

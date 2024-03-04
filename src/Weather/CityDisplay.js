@@ -51,7 +51,7 @@ const CityDisplay = ({ cityInfo, setCityInfo }) => {
   return (
     <>
       <ToastContainer />
-      <div className="flex flex-col lg:flex-row justify-between h-[40%] lg:h-[10%] border-b-[0.1rem] pb-8 lg:pb-4 gap-2 ">
+      <div className="flex flex-col lg:flex-row justify-between h-[40%] lg:h-[10%] border-b-[0.1rem] pb-2 md:pb-8 lg:pb-2 gap-2 ">
         <div className=" flex items-center font-semibold pl-2 ">My Cities</div>
 
         <GeolocationSearch
