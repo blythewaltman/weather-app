@@ -15,6 +15,10 @@ This project is a simple weather forecasting application that provides weather i
 - **Frontend:** React
 - **APIs:** Nominatim (OpenStreetMap), [Add any other APIs you're using]
 
+## Live Demo Link
+
+- **[Weather Dashboard](https://weather-app-cyan-eta-57.vercel.app/)**
+
 ## Installation
 
 1. Clone the repository:
