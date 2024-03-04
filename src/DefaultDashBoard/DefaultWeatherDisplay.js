@@ -10,7 +10,7 @@ const DefaultWeatherDisplay = () => {
           ○ To get started look up a location in the search bar above
         </div>
         <div className="text-[.9rem]  lg:text-[1rem]">
-          ○ You can either use a free form search
+          ○ You can use a free form search in the search bar
         </div>
         <div className="text-[.9rem]  lg:text-[1rem]">
           ○ Click the button to the left of the search bar for optional fields
