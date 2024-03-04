@@ -11,7 +11,7 @@ const LargeDayInfo = ({ weatherDay }) => {
   return (
     <>
       <div
-        className={`flex flex-row gap-1  lg:flex-col items-center justify-center bg-gradient-to-r from-indigo-400 via-purple-400 to-indigo-400  w-[100%] h-[40%] sm:w-[40%] sm:h-[100%] border rounded-xl text-white lg:p-2`}
+        className={`flex flex-row gap-1  lg:flex-col items-center justify-center bg-gradient-to-r from-indigo-400 via-purple-400 to-indigo-400  w-[100%] h-[40%] sm:w-[40%] sm:h-[100%] border rounded-xl text-white lg:p-[2rem] `}
       >
         <img
           className="scale-[50%] lg:scale-[100%] border rounded-xl"
