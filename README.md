@@ -20,7 +20,7 @@ This project is a simple weather forecasting application that provides weather i
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/weather-project.git
+   git clone https://github.com/blythewaltman/weather-app.git
    ```
 
 2. Install Dependencies
@@ -38,3 +38,9 @@ This project is a simple weather forecasting application that provides weather i
 4. Access Web Application
 
    Navigate to http://localhost:3000
+
+5. To Run Tests
+
+   ```bash
+   npm run test
+   ```
