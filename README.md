@@ -13,7 +13,7 @@ This project is a simple weather forecasting application that provides weather i
 ## Technologies Used
 
 - **Frontend:** React
-- **APIs:** Nominatim (OpenStreetMap), [Add any other APIs you're using]
+- **APIs:** [Nominatim API]('https://nominatim.org/release-docs/develop/api/Overview/'), [National Weather Service API]('https://www.weather.gov/documentation/services-web-api')
 
 ## Live Demo Link
 
